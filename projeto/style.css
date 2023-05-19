@@ -195,9 +195,29 @@ body{
     width: 100%;
     margin-top: 10px;
 }
+.botao-login:hover{
+    background: #10407e;
+}
+.botao-login:active{
+    opacity: 0.8;
+}
 
 .botao-cadastro:active{
-    opacity: 0.8;
+    opacampo-cadastro{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#esqsenha{
+    margin: 5px 0;
+    padding-top: 0px;
+    font-size: 15px;
+    color: #a50c0c;
+    text-decoration: none;
+}
+
+#cadastro{
+    margin-left: 12px;
+}ity: 0.8;
 }
 
 .campo-cadastro-select span{
@@ -213,6 +233,4 @@ body{
     font-size: 13px;
 }
 
-.label-campo-cadastro{
-    color: rgba(0, 0, 0, 0.54);
-}
+.label-c
