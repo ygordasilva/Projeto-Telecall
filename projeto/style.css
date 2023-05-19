@@ -203,21 +203,7 @@ body{
 }
 
 .botao-cadastro:active{
-    opacampo-cadastro{
-    color: rgba(0, 0, 0, 0.54);
-}
-
-#esqsenha{
-    margin: 5px 0;
-    padding-top: 0px;
-    font-size: 15px;
-    color: #a50c0c;
-    text-decoration: none;
-}
-
-#cadastro{
-    margin-left: 12px;
-}ity: 0.8;
+    opacity: 0.8;
 }
 
 .campo-cadastro-select span{
@@ -233,4 +219,18 @@ body{
     font-size: 13px;
 }
 
-.label-c
+.label-campo-cadastro{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#esqsenha{
+    margin: 5px 0;
+    padding-top: 0px;
+    font-size: 15px;
+    color: #a50c0c;
+    text-decoration: none;
+}
+
+#cadastro{
+    margin-left: 12px;
+}
