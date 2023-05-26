@@ -98,6 +98,7 @@
         letter-spacing: 0.05em;
         transition: 0.5s;
         z-index: 10;
+        width: 100%;
     }
     
     .campo-cadastro span{
@@ -356,6 +357,7 @@
         letter-spacing: 0.05em;
         transition: 0.5s;
         z-index: 10;
+        width: 100%;
     }
     
     .campo-cadastro span{
