@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 @media (max-width: 759px){
 
     /*Geral*/
@@ -16,6 +17,14 @@
         align-items: center;
         min-height: 100vh;
         background: #E7E7E7;
+    }
+
+    .ancora-logo{
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        margin-top: 10px;
+        height: 40px;
     }
     
     fieldset{
@@ -281,6 +290,13 @@
         align-items: center;
         min-height: 100vh;
         background: #E7E7E7;
+    }
+
+    .ancora-logo{
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        height: 40px;
     }
 
     .div-logo{
@@ -559,6 +575,8 @@
 
 
 /*Apartir daqui tela de recuperar senha*/
+
+
 
 .botao-recsenha{
     border: none;
