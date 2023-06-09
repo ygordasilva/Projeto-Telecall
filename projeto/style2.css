@@ -366,7 +366,7 @@ body{
 
 .imagem-notebook{
     border-radius: 5%;
-    width: 100%;
+    width: 105%;
     margin-top: 5%
 }
 
@@ -385,7 +385,7 @@ body{
 .botao-internet {
     position: absolute;
     margin-top: 10px;
-    margin-left: 250px;
+    margin-left: 150px;
     width: 230px;
     height: 50px;
     background: var(--cor-botao);
@@ -399,6 +399,7 @@ body{
     box-shadow: 4px 5px 5px #00000047;
     text-align: center;
     padding-top: 9px;
+    text-decoration: none;
 }
 
 
@@ -446,7 +447,7 @@ body{
     gap: 15px;
     align-items: center;
     box-shadow: 0px 0px 10px 1px;
-    margin-left: 12%;
+    margin-left: 5%;
 }
 
 .div-servico2 {
@@ -459,9 +460,134 @@ body{
     gap: 15px;
     align-items: center;
     box-shadow: 0px 0px 10px 1px;
-    margin-left: 22%;
+    margin-left: 15%;
 }
 
 .imagen-servico {
     margin-top: 10%;
+}
+
+/*sub menu 2 - banda larga */
+
+.imagem-notebook2 {
+    border-radius: 5%;
+    width: 95%;
+    margin-top: 5%
+}
+
+.banda-larga {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 150%;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 10%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.div-banda-larga {
+    margin-top: 10%;
+    width: 340px;
+    height: 250px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px;
+    margin-left: 5%;
+}
+.div-banda-larga2 {
+    margin-top: 5%;
+    width: 340px;
+    height: 275px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px;
+    margin-left: 5%;
+}
+.titulo-banda-larga {
+    margin-top: 10%;
+}
+
+.botao-contrate {
+    position: absolute;
+    margin-top: 14%;
+    width: 230px;
+    height: 50px;
+    background: var(--cor-botao);
+    border: none;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow: 4px 5px 5px #00000047;
+    text-align: center;
+    padding-top: 9px;
+    text-decoration: none;
+}
+
+
+.botao-contrate:hover{
+    background-color: var(--cor-botao-hover);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+.botao-contrate:active{
+    opacity: 0.8;
+}
+
+.botao-contrate2 {
+    position: absolute;
+    margin-top: 16%;
+    width: 230px;
+    height: 50px;
+    background: var(--cor-botao);
+    border: none;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow: 4px 5px 5px #00000047;
+    text-align: center;
+    padding-top: 9px;
+    text-decoration: none;
+}
+
+
+.botao-contrate2:hover{
+    background-color: var(--cor-botao-hover);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+.botao-contrate2:active{
+    opacity: 0.8;
+}
+.informacao {
+    margin-top: 50px;
+    max-width: 50vw;
+    justify-content: center;
+    margin-left: 25px;
+}
+.informacao2 {
+    margin-left: 25px;
+}
+.combos {
+    margin-top: 15px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.preco{
+    color: #003466;
+    font-size: 40px;
 }
