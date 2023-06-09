@@ -10,7 +10,7 @@
 
 
 :root{
-    --cor-header: #03030305;
+    --cor-header: #03030307;
     --letra-preimaria: #000000;
     --cor-secundaria: #FFFFFF;
     --cor-botao: #10407e;
@@ -27,22 +27,26 @@ body{
 
 /*header*/
 
-.container-header{
+.cabecalho{
     display: flex;
-    gap: 590px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: var(--cor-header);
 }
 
 .logo-header{
-    width: 300px;
-    height: 70px;
-    margin-left: 80px;
-    margin-top: 35px;
+    height: 50px;
 }
 
-header{
-    background-color: var(--cor-header);
-    height: 132px;
+.div-nav{
+    display: flex;
+    gap: 20px;
 }
+
+
+
 
 .botao-padrao{
     width: 162px;
@@ -71,11 +75,6 @@ header{
     opacity: 0.8;
 }
 
-.div-menu{
-    display: flex;
-    gap: 20px;
-    margin-top: 40px;
-}
 
 
 
@@ -141,7 +140,7 @@ header{
 }
 
 .div-texto-apresentacao{
-    width: 500px;
+    width: 600px;
     text-align: left;
     margin-left: 100px;
     padding-top: 25px;
@@ -151,12 +150,14 @@ header{
 }
 
 .texto-apresentacao{
+    color: var(--letra-preimaria);
     font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 900;
 }
 
 .texto-apresentacao-secundario{
     padding-bottom: 20px;
+    color: var(--letra-preimaria);
     border-bottom: solid #000000a1;
     font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 700;
