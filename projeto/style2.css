@@ -350,3 +350,118 @@ body{
 .botao-saiba-mais2:active{
     opacity: 0.8;
 }
+
+/*Tela sub menu internet dedicada*/
+
+.apresentacao-servico {
+    display: flex;
+    align-items: center;
+}
+
+.texto-servico {
+    max-width: 43vw;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.imagem-notebook{
+    border-radius: 5%;
+    width: 100%;
+    margin-top: 5%
+}
+
+.texto-titulo-internet {
+    font-size: 350%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    
+}
+
+.texto-internet{
+    font-size: 150%;
+    margin-bottom: 5%;
+}
+
+.botao-internet {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 250px;
+    width: 230px;
+    height: 50px;
+    background: var(--cor-botao);
+    border: none;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow: 4px 5px 5px #00000047;
+    text-align: center;
+    padding-top: 9px;
+}
+
+
+.botao-internet:hover{
+    background-color: var(--cor-botao-hover);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+.botao-internet:active{
+    opacity: 0.8;
+}
+
+.apresentacao-servico2 {
+    margin-top: 5%;
+}
+
+.titulo-beneficios{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 250%;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 10%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container-internet {
+    display: flex;
+    align-items: center;
+}
+
+.container-internet2 {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.div-servico {
+    margin-top: 5%;
+    width: 340px;
+    height: 350px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px;
+    margin-left: 12%;
+}
+
+.div-servico2 {
+    width: 340px;
+    height: 350px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px;
+    margin-left: 22%;
+}
+
+.imagen-servico {
+    margin-top: 10%;
+}
