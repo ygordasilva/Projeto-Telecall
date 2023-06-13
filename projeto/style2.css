@@ -1031,4 +1031,203 @@
     justify-content: center;
     box-shadow: 0px 0px 10px 1px;
 }
+/*sub-menu celular empresarial */
 
+.texto-titulo-celular {
+    font-size: 350%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.imagem-chip{
+    margin-left: 50%;
+}
+.texto-celular{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 23px;
+    margin-left: 5%;
+}
+.botao-saibamais {
+    margin-top: 30px;
+    margin-right: 53%;
+    width: 230px;
+    height: 50px;
+    background: var(--cor-botao);
+    border: none;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow: 4px 5px 5px #00000047;
+    text-align: center;
+    padding-top: 9px;
+    text-decoration: none;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.botao-saibamais:hover{
+    background-color: var(--cor-botao-hover);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+.botao-saibamais:active{
+    opacity: 0.8;
+}
+.titulo-celular{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 250%;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
+.img-celular{
+    margin-top: 20%;
+}
+.titulo-celular2{
+    font-size: 23px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 800;
+    margin-top: 2%;
+}
+.paragrafo-celular{
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.pre-pago{
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 700;
+}
+.gb{
+    font-size: 50px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 700;
+}
+.rs{
+    font-size: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 700;
+}
+.preco-celular{
+    color: #003466;
+    font-size: 50px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 800;
+}
+.paragrafo-plano{
+    font-size: 15px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 700;
+}
+.botao-comprar {
+    margin-top: 10px;
+    width: 230px;
+    height: 50px;
+    background: var(--cor-botao);
+    border: none;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow: 4px 5px 5px #00000047;
+    text-align: center;
+    padding-top: 9px;
+    text-decoration: none;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.botao-comprar:hover{
+    background-color: var(--cor-botao-hover);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+.botao-comprar:active{
+    opacity: 0.8;
+}
+.campo-planos {
+    margin-top: 5%;
+    width: 340px;
+    height: 410px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px;
+}
+.infor-plano{
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin-left: 18%;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* sub-menu MVNA */
+
+.container-numerotelefone{
+    margin-top: 3%;
+    width: 340px;
+    height: 250px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px;
+}
+.imag-numerotelecall{
+    margin-top: 15%;
+}
+.text-numerotelecall{
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.titulo-beneficios2{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 250%;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* sub-menu outsourcing */
+.imagem-dispositovo{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.imag-hardware{
+    margin-top: 5%;
+    align-items: center;
+}
+.paragrafo-hardware{
+    font-size: 25px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.container-hardware{
+    margin-top: 5%;
+    width: 340px;
+    height: 300px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px;
+}
